@@ -1,0 +1,75 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv
+.env
+env/
+venv/
+ENV/
+
+# uv-specific
+.uv/
+
+# Streamlit-specific
+.streamlit/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Logs
+*.log
+
+# Dependency files
+requirements.txt
+Pipfile.lock
+
+# Environment configuration
+.env.local
+.env.*.local
+
+# Streamlit deployment files
+.streamlit/
+
+# Ignore all local configuration files
+config.toml
+
+# Ignore data files (adjust as needed)
+*.csv
+*.json
+*.xlsx
+
+# Ignore any sensitive or personal files
+secrets.yaml
+credentials.json
